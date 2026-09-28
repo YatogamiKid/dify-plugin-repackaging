@@ -21,4 +21,4 @@ COPY . .
 RUN chmod +x plugin_repackaging.sh
 
 # 设置默认命令
-CMD ["./plugin_repackaging.sh", "-p", "manylinux_2_28_aarch64", "market", "langgenius", "openai_api_compatible", "0.0.59"]
+CMD ["./plugin_repackaging.sh", "-p", "market", "langgenius", "openai_api_compatible", "0.0.68"]
